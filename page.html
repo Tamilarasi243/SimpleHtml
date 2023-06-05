@@ -1,0 +1,174 @@
+<html>
+
+<head>
+    <title>...Page using python...</title>
+    <style>
+        body {
+            background-color: black;
+            color: grey;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+        
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            font-family: Comic Sans MS;
+            background-color: gray;
+            color: black;
+            width: 760px
+        }
+        
+        select {
+            width: 760px;
+            height: 50px;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: dimgray;
+        }
+        
+        .dd {
+            display: inline-block;
+            position: relative;
+            margin-bottom: 100px;
+            width: 760px;
+            height: 50px;
+            background-color: dimgray;
+        }
+        
+        .ddc {
+            display: none;
+            position: absolute;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        }
+        
+        .dd:hover .ddc {
+            display: block;
+        }
+        
+        .ddc pre {
+            display: block;
+            color: orange;
+            padding: 5px;
+            text-decoration: none;
+        }
+        
+        .ddc pre:hover {
+            color: #FFFFFF;
+            background-color: grey;
+        }
+        
+        button {
+            width: 760px;
+            height: 50px;
+            background-color: dimgray;
+            font-size: larger;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Hardik Pandya</h1>
+        <img src="mAFXJw.jpg">
+    </div>
+    <div style="background-color: gray;color:aliceblue;width:760;">
+        <h2>...About Hardik...</h2>
+    </div>
+    <div>
+        <article><span style="color:darkslategray;"><b>Hardik Himanshu Pandya</b></span> (born 11 October 1993) is an Indian cricketer who is the current vice-captain of the Indian cricket team in limited overs format. A batting all-rounder who can also bowl right-arm
+            fast-medium deliveries, Pandya has represented India in all 3 formats. He currently plays for the Baroda cricket team in domestic cricket and is captain of the Gujarat Titans in the Indian Premier League (IPL) whom he led to their maiden IPL
+            title in the 2022 edition. His elder brother Krunal Pandya is also a professional cricketer.</article>
+    </div>
+    <div>
+        <h2 style="background-color: gray;color:aliceblue;width:760;">...Domestic Career...</h2>
+    </div>
+    <div>
+        <article>Pandya has been playing for the Baroda cricket team since 2013. He played a vital role in helping Baroda win the Syed Mushtaq Ali Trophy in the 2013-14 season. In January 2016, he slammed eight sixes during his innings, scoring 86 runs not-out,
+            to guide the Baroda cricket team to a six-wicket win over Vidarbha cricket team for the Syed Mushtaq Ali Trophy. Indian Premier League Pandya played for the Mumbai Indians in the IPL from 2015 to 2021. Against the Kolkata Knight Riders, in
+            a must-win situation for Mumbai Indians to remain in the playoff race, he scored 61 runs off 31 balls to win the match for his side, earning him his second man of the match award in the season. Ahead of the IPL 2022 mega auction, Pandya was
+            released by the Mumbai Indians. He was then drafted by the new Ahmedabad franchise, Gujarat Titans, and named captain of the team. He led Gujarat to their maiden IPL title in 2022, becoming the first captain after Shane Warne to lead a team
+            to the title in its first year.</article>
+    </div>
+    <div>
+        <h2 style="background-color: gray;color:aliceblue;width:760;">...International Career...</h2>
+    </div>
+    <div>
+        <form>
+            <div id="a">
+                <select name="Test Matches" id="TM ">
+                    <option value="aatest " style="color:aquamarine;background-color: black; ">...Test Matches...</option>
+                    <option value="atest ">Debut................Sri Lanka vs India at Galle - July 26 - 29, 2017</option>
+                    <option value="btest ">Last.................England vs India at Southampton - August 30 - September 02, 2018</option>
+                </select>
+            </div>
+
+            <div id="a">
+                <select name="ODI matches " id="ODIM ">
+                    <option value="aaOdi " style="color:aquamarine;background-color: black; ">...ODI Matches...</option>
+                    <option value="aOdi ">Debut................India vs New Zealand at Dharamsala - October 16, 2016</option>
+                    <option value="bOdi ">Last.................India vs Australia at Chennai - March 22, 2023</option>
+                </select>
+            </div>
+
+            <div id="a">
+                <select name="T20I Matches" id="T20IM ">
+                    <option value="aat20i " style="color:aquamarine;background-color: black; ">...T20I Matches...</option>
+                    <option value="at20i ">Debut................Australia vs India at Adelaide - January 26, 2016</option>
+                    <option value="bt20i ">Last.................India vs New Zealand at Ahmedabad - February 01, 2023</option>
+                </select>
+            </div>
+
+            <div id="a">
+                <select name="FC Matches " id="FCM ">
+                    <option value="aafc " style="color:aquamarine;background-color: black; ">...FC Matches...</option>
+                    <option value="afc ">Debut................Baroda vs M. Pradesh at Vadodara - November 28 - 30, 2013</option>
+                    <option value="bfc ">Last.................Mumbai vs Baroda at Wankhede - December 14 - 17, 2018</option>
+                </select>
+            </div>
+
+            <div id="a">
+                <select name="Matches" id="M ">
+                    <option value="aam " style="color:aquamarine;background-color: black; ">...Matches...</option>
+                    <option value="am ">Debut................Baroda vs Gujarat at Ahmedabad - November 08, 2014</option>
+                    <option value="bm ">Last.................India vs Australia at Chennai - March 22, 2023</option>
+                </select>
+            </div>
+
+            <div id="a">
+                <select name="T20 Matches " id="T20M ">
+                    <option value="aat20 " style="color:aquamarine;background-color: black; ">...T20 Matches...</option>
+                    <option value="at20 ">Debut................Baroda vs Mumbai at Ahmedabad - March 17, 2013</option>
+                    <option value="bt20 ">Last.................Titans vs Super Kings at Ahmedabad - May 28 - 29, 2023</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <div class="dd">
+        <button>...Recent Matches...</button>
+        <div class="ddc">
+            <pre>
+                MATCH	                    Bat	    Bowl	  Date	        Ground	       Format
+                Titans vs Super Kings       21*	    0/14	  28-May-2023	Ahmedabad      T20
+                Titans vs Mumbai            28*	    0/24	  26-May-2023   Ahmedabad      T20
+                Titans vs Super Kings       8	    --	          23-May-2023   Chennai        T20
+                Titans vs RCB               --      --            21-May-2023   Bengaluru      T20
+                Titans vs Sunrisers         8	    --	          15-May-2023	Ahmedabad      T20
+                Titans vs Mumbai            4	    --  	  12-May-2023	Wankhede       T20
+                Titans vs Super Giants      25      0/37          07-May-2023	Ahmedabad      T20
+                Titans vs Royals            39*     1/22	  05-May-2023	Jaipur         T20
+                Titans vs Capitals          59*     0/10          02-May-2023   Ahmedabad      T20
+                Titans vs KKR               26      0/34          29-Apr-2023   Eden Gardens   T20
+            </pre>
+        </div>
+    </div>
+    <br>
+    <p style="margin-top: 150px;">...Designed by Tams...</p>
+
+</body>
+
+</html>
